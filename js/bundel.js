@@ -63,6 +63,60 @@
 
 // <!-- addevenlistener details  -->
 
+// document.getElementById('change').addEventListener('click', () => {
+//     const changehobe = document.getElementById('hobe');
+//     changehobe.innerText = 'bangladesh shadin';
+// })
+
+// const change = document.getElementById('change');
+// change.onclick = function (){
+//     const hobe = document.getElementById('hobe') ;
+//     hobe.innerText = 'amar sonar bangla';
+// }
+
+
+
+// <!-- input button aye clik  -->
+
+
+
+// document.getElementById('dilam-chap').addEventListener('click', () => {
+//     const inputt = document.getElementById('inputt');
+//     const invalu = inputt.value;
+
+//     const praa = document.getElementById('pra'); 
+//     praa.innerHTML = invalu ;
+// })
+
+// document.getElementById('dilam-chap').addEventListener('click', () => {
+//     const inputt = document.getElementById('inputt');
+//     const inputvalu = inputt.value ;
+
+
+//     const praa = document.getElementById('pra');
+//     praa.innerText = inputvalu;
+
+//     inputt.value="";
+// })
+
+// <!-- hw amni extra  --> 49code
+
+document.getElementById('comment').addEventListener('click', () => {
+    const divv = document.getElementById('divv');
+    const arieatext = document.getElementById('arieatext');
+    const valuu = arieatext ;
+
+    const praa = document.createElement('p');
+    praa.appendChild = divv ;
+    praa.innerText = valuu ;
+})
+
+
+
+
+
+
+
 
 
 
