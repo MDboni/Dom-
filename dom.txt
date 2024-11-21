@@ -1,0 +1,6 @@
+DOM-API-FETCh
+
+what is dom ?
+The Document Object Model (DOM) in JavaScript is a programming interface that allows you to access and manipulate a web page's structure, style, and content,
+
+script file link with dom
