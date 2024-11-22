@@ -61,7 +61,7 @@
 
 
 
-// <!-- addevenlistener details  -->
+// <!-- addevenlistener details  --> code 37
 
 // document.getElementById('change').addEventListener('click', () => {
 //     const changehobe = document.getElementById('hobe');
@@ -101,18 +101,57 @@
 
 // <!-- hw amni extra  --> 49code
 
-document.getElementById('comment').addEventListener('click', () => {
-    const divv = document.getElementById('divv');
-    const arieatext = document.getElementById('arieatext');
-    const valuu = arieatext ;
 
-    const praa = document.createElement('p');
-    praa.appendChild = divv ;
-    praa.innerText = valuu ;
+// document.getElementById('submitt').addEventListener('click', () => {
+//     const commentbox = document.getElementById('textt');
+//     const commentValue = commentbox.value;
+
+//     const commentipe = document.getElementById('comment');
+
+//     const pra = document.createElement('p');
+//     pra.innerText = commentValue ;
+
+//     commentipe.appendChild(pra);
+//     commentbox.value=" ";
+    
+    
+// })
+
+
+// document.getElementById('submitt').addEventListener('click', () => {
+//   const comment =  document.getElementById('comment');
+//   const commentvalue = comment.value ;
+
+//   const pra = document.createElement('p')
+//   pra.innerText = commentvalue ;
+
+//   const divv = document.getElementById('div');
+
+//   divv.appendChild(pra);
+
+//   comment.value=" ";
+// })
+
+
+// <!-- insert before  -->
+    // const manutag = document.getElementById('menu');
+
+    // const li = document.createElement('li');
+    // li.innerText = "first";
+
+    // manutag.insertBefore(li.firstChild);
+
+
+
+    // <!-- fetch api  -->  code 76
+
+function apii(){
+    fetch('http://127.0.0.1:5500/dom.txt')
+.then(Response => Response.text())
+.then(data => {
+    document.getElementById('pra').innerText= data;
 })
-
-
-
+}
 
 
 
