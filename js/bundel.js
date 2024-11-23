@@ -145,14 +145,26 @@
 
     // <!-- fetch api  -->  code 76
 
-function apii(){
-    fetch('http://127.0.0.1:5500/dom.txt')
-.then(Response => Response.text())
-.then(data => {
-    document.getElementById('pra').innerText= data;
-})
+// function apii(){
+//     fetch('http://127.0.0.1:5500/dom.txt')
+// .then(Response => Response.text())
+// .then(data => {
+//     document.getElementById('pra').innerText= data;
+// })
+// }
+
+
+function dataapi(){
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then(Response => Response.json())
+    .then(data => display(data))
 }
 
+function display(data){
+
+    console.log(data);
+    
+}
 
 
 
